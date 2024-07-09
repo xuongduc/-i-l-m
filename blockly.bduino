@@ -1,0 +1,272 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="Leanbot.whenStarted" id="j6T+-bX4ek*WN[:xS]o|" x="188" y="-62">
+    <next>
+      <block type="LbMission.beginByTeacher_end" id="SgBM?ChuD;h;ZK=*w7oz">
+        <field name="comboTouch">TB1A + TB1B</field>
+        <statement name="Body">
+          <block type="LbMotion.run" id="S;_8(V.DR-C`em^eNIFl">
+            <field name="MotionType">Turn</field>
+            <field name="UnitSpeed">rpm</field>
+            <value name="Left">
+              <shadow type="math_number" id="Kz^p_j+K^xkX}lX9C,Hu">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="Right">
+              <shadow type="math_number" id="*WGnnD^xDC4T7qLVl7*z">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="LbMotion.waitRotationDeg" id="A]!l.@884nIrnkx1n;P#">
+                <field name="UnitDegree">degrees</field>
+                <value name="rotationDeg">
+                  <shadow type="math_number" id="r.*w$+-B=y`ZH4kEn!8(">
+                    <field name="NUM">110</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="LbMotion.run" id="@|5IxZL)I^/,h7Ba]By9">
+                    <field name="MotionType">Run</field>
+                    <field name="UnitSpeed">rpm</field>
+                    <value name="Left">
+                      <shadow type="math_number" id="/FV7lmw;a@5*qC^?A4[e">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <value name="Right">
+                      <shadow type="math_number" id="YI4:7d8uf}v9#.(Xda*e">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="LbMotion.waitDistanceMm" id="F]kS?0ajIt4/nZYiHN{?">
+                        <field name="UnitDistance">cm</field>
+                        <value name="distanceMm">
+                          <shadow type="math_number" id="!I6x-.lk(1l2xAQH.=P+">
+                            <field name="NUM">30</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="LbMotion.run" id="h*-()INtXr9[kY/!eMUn">
+                            <field name="MotionType">Turn</field>
+                            <field name="UnitSpeed">rpm</field>
+                            <value name="Left">
+                              <shadow type="math_number" id="DNcr.?Hu^QzqiS_r`Ynn">
+                                <field name="NUM">0</field>
+                              </shadow>
+                            </value>
+                            <value name="Right">
+                              <shadow type="math_number" id="d8+-WGoz}?YCWV!A7=;7">
+                                <field name="NUM">30</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="LbMotion.waitRotationDeg" id=",OW/eti?%N}J?ntg!/zE">
+                                <field name="UnitDegree">degrees</field>
+                                <value name="rotationDeg">
+                                  <shadow type="math_number" id="Iv7:FIwf*b*K66hdoal=">
+                                    <field name="NUM">110</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="LbMotion.run" id="Fkuu|h3NrZ!/b.Yk-[hl">
+                                    <field name="MotionType">Run</field>
+                                    <field name="UnitSpeed">rpm</field>
+                                    <value name="Left">
+                                      <shadow type="math_number" id="fQ9%h2q?4mThT(Igb/kI">
+                                        <field name="NUM">30</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="Right">
+                                      <shadow type="math_number" id="bLE`rezvTmj)L),Ij{21">
+                                        <field name="NUM">30</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="LbMotion.waitDistanceMm" id="?haIU5(oH@_!n!!MHi~j">
+                                        <field name="UnitDistance">cm</field>
+                                        <value name="distanceMm">
+                                          <shadow type="math_number" id=")Sg-JQaaDBL|6nix_]YO">
+                                            <field name="NUM">30</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="LbMotion.run" id="?ryo?My@h0s=%S!W8mAA">
+                                            <field name="MotionType">Turn</field>
+                                            <field name="UnitSpeed">rpm</field>
+                                            <value name="Left">
+                                              <shadow type="math_number" id="NY;|9L1@%-3.c7jyxgVH">
+                                                <field name="NUM">30</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="Right">
+                                              <shadow type="math_number" id="I;f%W$lHl%7a?Gu+i:*(">
+                                                <field name="NUM">0</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="LbMotion.waitRotationDeg" id="^d)OpzXhOQ@H+H*@|uzd">
+                                                <field name="UnitDegree">degrees</field>
+                                                <value name="rotationDeg">
+                                                  <shadow type="math_number" id="=H=_MunXzcp@shp_1!-,">
+                                                    <field name="NUM">110</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="LbMotion.run" id="wV=[h:!x0+iWBFe*UA$/">
+                                                    <field name="MotionType">Run</field>
+                                                    <field name="UnitSpeed">rpm</field>
+                                                    <value name="Left">
+                                                      <shadow type="math_number" id="uG}*SV]X5hh|TBaVO$M|">
+                                                        <field name="NUM">30</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <value name="Right">
+                                                      <shadow type="math_number" id="~IL9potbE;,S2wWo=aL1">
+                                                        <field name="NUM">30</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="LbMotion.waitDistanceMm" id="cw2s8CK#yxcBz,]8Xbpa">
+                                                        <field name="UnitDistance">cm</field>
+                                                        <value name="distanceMm">
+                                                          <shadow type="math_number" id="NJC4fu,lxm]7!aC+VHm2">
+                                                            <field name="NUM">30</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <next>
+                                                          <block type="LbMotion.run" id="b|4Lv=cC_Vo%bPxy@No|">
+                                                            <field name="MotionType">Turn</field>
+                                                            <field name="UnitSpeed">rpm</field>
+                                                            <value name="Left">
+                                                              <shadow type="math_number" id="B`z:eL%Ou#3$akPpMK1}">
+                                                                <field name="NUM">0</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <value name="Right">
+                                                              <shadow type="math_number" id="HaUcfe*d)2!VW=7Asz{C">
+                                                                <field name="NUM">30</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="LbMotion.waitRotationDeg" id="T8yp8S^YA1b)Dm2iFeS*">
+                                                                <field name="UnitDegree">degrees</field>
+                                                                <value name="rotationDeg">
+                                                                  <shadow type="math_number" id="nl9JR]WkZv`krZPWiF.^">
+                                                                    <field name="NUM">110</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="LbMotion.run" id="k`GcKolcc=ln,S^%@qJ2">
+                                                                    <field name="MotionType">Run</field>
+                                                                    <field name="UnitSpeed">rpm</field>
+                                                                    <value name="Left">
+                                                                      <shadow type="math_number" id="!{+6fJ4|`J|+xJ-fnu]i">
+                                                                        <field name="NUM">30</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <value name="Right">
+                                                                      <shadow type="math_number" id="d0S=?~QCLt;yC:D)zbv$">
+                                                                        <field name="NUM">30</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="LbMotion.waitDistanceMm" id="}}^Q@aD(B7A(t{LFglM.">
+                                                                        <field name="UnitDistance">cm</field>
+                                                                        <value name="distanceMm">
+                                                                          <shadow type="math_number" id="Q*=g^@w]5TvRikjAg}#^">
+                                                                            <field name="NUM">30</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="LbMotion.run" id="1|R9p|!UIX@dS)op+jVu">
+                                                                            <field name="MotionType">Turn</field>
+                                                                            <field name="UnitSpeed">rpm</field>
+                                                                            <value name="Left">
+                                                                              <shadow type="math_number" id="karKcbnHYRwQ?8~=rffo">
+                                                                                <field name="NUM">30</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="Right">
+                                                                              <shadow type="math_number" id="UCeiIHpPhzm=s4$5C#yt">
+                                                                                <field name="NUM">0</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="LbMotion.waitRotationDeg" id="P+qHWy_I*8gg9Cg#e6md">
+                                                                                <field name="UnitDegree">degrees</field>
+                                                                                <value name="rotationDeg">
+                                                                                  <shadow type="math_number" id="@gAR0]FLTDYZYkDNM^?Y">
+                                                                                    <field name="NUM">110</field>
+                                                                                  </shadow>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="LbMotion.run" id="@w|ZD@23Rb;V$$8/W=*4">
+                                                                                    <field name="MotionType">Run</field>
+                                                                                    <field name="UnitSpeed">rpm</field>
+                                                                                    <value name="Left">
+                                                                                      <shadow type="math_number" id="AHsDveC2Z]Tey0zqq{Ua">
+                                                                                        <field name="NUM">30</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                    <value name="Right">
+                                                                                      <shadow type="math_number" id="6{jXV5!(o]v#r*C;_70]">
+                                                                                        <field name="NUM">30</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="LbMotion.waitDistanceMm" id="GKjRD(kqSoR-Q`j:}-:v">
+                                                                                        <field name="UnitDistance">cm</field>
+                                                                                        <value name="distanceMm">
+                                                                                          <shadow type="math_number" id="n}l`rL1X0g=PnWj;K*=q">
+                                                                                            <field name="NUM">30</field>
+                                                                                          </shadow>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="LbMotion.stop" id="/fzqX#cJVv]65!QTd[y("></block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
